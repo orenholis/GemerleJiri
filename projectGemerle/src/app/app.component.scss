@@ -1,0 +1,25 @@
+.cely-apk {
+    width: 1000px;
+    height: 95%;
+    margin: auto auto auto auto;
+    /**background-color: rgba(59, 59, 255, 0.966);*/
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+.btn-dalsi-front-page {
+    display: block;
+    margin: 40px auto 40px auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    outline: none;
+    font-size: 25px;
+}
+.btn-dalsi-front-page:hover {
+    background-color: blue;
+    transition-duration: 0.6s;
+    color: white;
+    box-shadow: -5px -3px 7px 1px grey
+}

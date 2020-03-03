@@ -1,0 +1,38 @@
+.nadpis-typ-pojisteni {
+    text-align: center;
+}
+.vyber-typu-pojisteni-cely {
+    display: flex;
+}
+.proti-rozbiti, .proti-kradezi {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.proti-rozbiti-cely, .proti-kradezi-cely {
+    flex: 1;
+}
+.notSelected-pojisteni {
+    border: 2px solid blue;
+}
+.selected-pojisteni {
+    border: 10px solid blue;
+    box-sizing: border-box;
+}
+.obrazek-fajfka {
+    background-color: blue;
+    width: 84px;
+}
+.invisible {
+    display: none;
+}
+.obrazek-fajfka-vzhled-cely {
+    display: flex;
+    margin-top: 56Px;   
+}
+.obrazek-prava-strana, .obrazek-leva-strana {
+    flex: 1;
+    background-color: blue;
+}

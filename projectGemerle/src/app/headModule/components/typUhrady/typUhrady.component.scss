@@ -1,0 +1,46 @@
+.vyber-uhrady-cely {
+    display: flex;
+}
+.uhrada-rocne-cela, .uhrada-mesicne-cela, .uhrada-ctvrtletne-cela {
+    flex: 1;
+}
+.uhrada-rocne, .uhrada-mesicne, .uhrada-ctvrtletne {
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+.nadpis-typ-uhrady {
+    text-align: center;
+}
+.uhrada-mesicne-nadpis, .uhrada-ctvrtletne-nadpis, .uhrada-rocne-nadpis {
+    text-align: center;
+    font-size: 25px;
+}
+.uhrada-rocne-cena, .uhrada-mesicne-cena, .uhrada-ctvrtletne-cena {
+    text-align: center;
+    font-weight: bold;
+    margin-top: -11px;
+}
+.notSelected-uhrada {
+    border: 2px solid blue;
+}
+.selected-uhrada {
+    border: 6px solid blue;
+    box-sizing: border-box;
+}
+.invisible {
+    display: none;
+}
+.obrazek-fajfka {
+    background-color: blue;
+    width: 84px;
+}
+.obrazek-fajfka-vzhled-cely{
+    display: flex;
+    margin: 0 auto;
+}
+.leva-strana-obrazek, .prava-strana-obrazek{
+    flex: 1;
+    background-color: blue;
+}
